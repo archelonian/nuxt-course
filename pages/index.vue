@@ -1,6 +1,6 @@
 <template>
   <div>
-	<NavBar />
-	<CarHero />
+    <NavBar />
+    <CarHero />
   </div>
 </template>
