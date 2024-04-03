@@ -20,3 +20,10 @@
     </div>
   </div>
 </template>
+
+<script setup>
+const route = useRoute()
+useHead({
+  title: `${route.params.make ? route.params.make + 's' : 'Cars'} in ${route.params.city}`
+})
+</script>
