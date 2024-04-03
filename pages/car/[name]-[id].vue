@@ -13,11 +13,13 @@
       pb-16
       w-3/5"
     >
-      <div class="mt-32 flex">
-		<CarSidebar />
-    
-        <CarCard />
+      <div>
+        <CarDetailHero />
+        <CarDetailAttributes />
+        <CarDetailDescription />
+        <CarDetailContact />
       </div>
     </div>
+
   </div>
 </template>
